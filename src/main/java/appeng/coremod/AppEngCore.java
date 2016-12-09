@@ -30,8 +30,6 @@ import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin.MCVersion;
 @MCVersion( "1.10.2" )
 public final class AppEngCore implements IFMLLoadingPlugin
 {
-	private final ModMetadata metadata = new ModMetadata();
-
 	public AppEngCore()
 	{
 		FMLRelaunchLog.info( "[AppEng] Core Init" );
