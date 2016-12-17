@@ -27,6 +27,10 @@ public interface IIntegrationModule
 		return true;
 	}
 
+	default void preInit() throws Throwable
+	{
+	}
+
 	default void init() throws Throwable
 	{
 	}

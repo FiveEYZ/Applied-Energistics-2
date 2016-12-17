@@ -22,6 +22,7 @@ package appeng.core;
 import java.io.File;
 import java.util.HashSet;
 import java.util.Set;
+
 import javax.annotation.Nonnull;
 
 import com.google.common.base.Preconditions;
@@ -57,8 +58,8 @@ import appeng.api.parts.IPartHelper;
 import appeng.capabilities.Capabilities;
 import appeng.core.features.AEFeature;
 import appeng.core.features.registries.P2PTunnelRegistry;
-import appeng.core.features.registries.entries.BasicCellHandler;
-import appeng.core.features.registries.entries.CreativeCellHandler;
+import appeng.core.features.registries.cell.BasicCellHandler;
+import appeng.core.features.registries.cell.CreativeCellHandler;
 import appeng.core.localization.GuiText;
 import appeng.core.localization.PlayerMessages;
 import appeng.core.stats.PlayerStatsRegistration;
