@@ -38,7 +38,7 @@ public final class AppEngCore implements IFMLLoadingPlugin
 	@Override
 	public String[] getASMTransformerClass()
 	{
-		return new String[] { "appeng.coremod.transformer.ASMIntegration" };
+		return new String[] { "appeng.coremod.asm.ASMIntegration" };
 	}
 
 	@Override
